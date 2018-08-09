@@ -8,5 +8,8 @@ CREATE TABLE burgers
 	id int NOT NULL AUTO_INCREMENT,
 	name varchar(255) NOT NULL,
 	ingredients varchar(255) NOT NULL,
+    devoured BOOLEAN NOT NULL,
 	PRIMARY KEY (id)
 );
+
+SELECT * FROM burgers
